@@ -28,7 +28,7 @@ Both number systems use finite representations of things that are potentially in
 
 We cannot assume "usual" mathematical properties for computer arithmetic due to finiteness of representations. We need to understand these corner cases as they can be important issues for serious application programs.
 
-### _#2 You've Got to Know Assembly
+### _#2 You've Got to Know Assembly_
 **Understanding assembly is key to machine-level execution model**
 - Behaviour of programs in presence of bugs
 - Tuning program performance
