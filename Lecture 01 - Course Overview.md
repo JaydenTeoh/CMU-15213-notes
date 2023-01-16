@@ -108,4 +108,4 @@ void copyij(int src[2048][2048], int dst[2048][2048]) {
 
 ### _#5 Computers do more than execute programs_
 - They need to get data in and out
-- They communivate with each other over networks
+- They communicate with each other over networks
