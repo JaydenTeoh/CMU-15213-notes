@@ -78,6 +78,7 @@
             - Not-a-Number(NaN)
             - Represents case when no numeric value can be determined
             - E.g. sqrt(-1)
+
 ![Alt text](./images/image1.png)
 - Special properties of the IEEE Encoding
     - Floating Point 0 same as Integer 0
