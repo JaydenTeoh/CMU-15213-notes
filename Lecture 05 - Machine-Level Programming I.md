@@ -73,9 +73,11 @@
     Step 2: movq (%rsi), %rdx ; t1 = *yp
 ![Alt text](./images/image6.png)
     - Similar step as Step 1
+
     Step 3: movq %rdx, (%rdi) ; *xp = t1
 ![Alt text](./images/image7.png)
     - Use the value stored in register %rdx and writing back to memory by using the address stored in %rdi (dereferenced pointer)
+    
     Step 4: movq %rax, (%rsi) ; *yp = t0
 ![Alt text](./images/image8.png)
     - Similar step as Step 3
