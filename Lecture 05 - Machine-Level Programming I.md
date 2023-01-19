@@ -52,7 +52,7 @@
 | movq %rax, (%rdx)   | *p = temp | Copy data from register to memory; storing to an address (deferenced pointer *p)  |
 | movq (%rax), %rdx   | temp = *p  | Copy data from memory to register; storing to a temporary storage location  |
 
-    - When you put name of register in parenthesis => means to use the data in that register as an address and use that address to reference some memory location
+When you put name of register in parenthesis => means to use the data in that register as an address and use that address to reference some memory location
 ### Memory Addressing Modes
 - Normal (R) Mem[Reg[R]]
     - Register R specific memory address
