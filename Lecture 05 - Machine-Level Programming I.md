@@ -51,6 +51,7 @@
 | movq %rax, %rdx   | temp1 = temp2  | Copy temporary data from one register to another  |
 | movq %rax, (%rdx)   | *p = temp | Copy data from register to memory; storing to an address (deferenced pointer *p)  |
 | movq (%rax), %rdx   | temp = *p  | Copy data from memory to register; storing to a temporary storage location  |
+
     - When you put name of register in parenthesis => means to use the data in that register as an address and use that address to reference some memory location
 ### Memory Addressing Modes
 - Normal (R) Mem[Reg[R]]
@@ -77,7 +78,7 @@
     Step 3: movq %rdx, (%rdi) ; *xp = t1
 ![Alt text](./images/image7.png)
     - Use the value stored in register %rdx and writing back to memory by using the address stored in %rdi (dereferenced pointer)
-    
+
     Step 4: movq %rax, (%rsi) ; *yp = t0
 ![Alt text](./images/image8.png)
     - Similar step as Step 3
