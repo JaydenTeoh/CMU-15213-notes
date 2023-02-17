@@ -1,4 +1,4 @@
-# Lecture 19 - Dynamic Memory Allocation: Advanced Concepts
+# Lecture 20 - Dynamic Memory Allocation: Advanced Concepts
 
 ### Explicit free list
 ![Alt text](./images/image116.png)
